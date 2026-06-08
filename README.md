@@ -26,18 +26,6 @@ An ETL system that extracts personal health and learning data from CSV files, lo
 
 ---
 
-## Project Status
-
-| Section | Topic | Status |
-|---|---|---|
-| 1 | Dataset Analysis | ✅ Done |
-| 2 | Database Technology Comparison & Selection | ✅ Done |
-| 3 | System Design & Security Policy | 🔲 To do |
-| 4 | Implementation (ETL script + 5 queries) | 🔲 To do |
-| 5 | Test Report & Query Performance | 🔲 To do |
-
----
-
 ## Data Sources
 
 | Source | Files | Rows |
