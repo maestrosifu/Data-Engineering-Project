@@ -59,7 +59,7 @@ An ETL system that extracts personal health and learning data from CSV files, lo
 ✅ Phase 2 — Database Technology Analysis
 
  Compare PostgreSQL, InfluxDB, MongoDB, and Apache Cassandra
- Evaluate each against the specific properties of the dataset (join support, time-series handling, schema flexibility, missing data)
+ Evaluate each against the specific properties of the dataset (join support, time series handling, schema flexibility, missing data)
  Select and motivate PostgreSQL as the primary database
  Document rejected alternatives with arguments
 
@@ -78,7 +78,7 @@ An ETL system that extracts personal health and learning data from CSV files, lo
  Write the Data Security Policy:
 
  Encryption at rest and in transit (SSL/TLS)
- Role-based access control (per-student roles + analyst role)
+ Role-based access control (per student roles + analyst role)
  Backup strategy (frequency, retention, storage)
  Logging and monitoring
  GDPR compliance (consent, data minimization, right to erasure, retention policy)
@@ -88,15 +88,15 @@ An ETL system that extracts personal health and learning data from CSV files, lo
 
 🔲 Phase 4 — Implementation
 
- Write schema.sql — full PostgreSQL schema with constraints and indexes
- Write load_data.py — Python ETL script to ingest all 11 CSV files
- Write queries.py — five analytical queries, each using at least two data sources:
+ Write schema.sql, full PostgreSQL schema with constraints and indexes
+ Write load_data.py, Python ETL script to ingest all 11 CSV files
+ Write queries.py, five analytical queries, each using at least two data sources:
 
  Q1: Average and range of daily active minutes across all students
  Q2: Workout and study schedule vs. sleep duration and step count
  Q3: Sleep duration vs. study hours logged the following day
  Q4: Average daily active minutes vs. academic grades
- Q5: Below-average caloric intake days vs. study hours and assessment scores
+ Q5: Below average caloric intake days vs. study hours and assessment scores
 
 
  Validate all queries return expected results
