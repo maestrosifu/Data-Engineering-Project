@@ -1,6 +1,6 @@
 # Data-Engineering-Project
 # Personal Data Ecosystem — Learning Analytics
-**Introduction Data Engineering | Group Project 2024–2025**
+**Introduction Data Engineering**
 
 A pipeline that combines WHOOP wearable data, MyFitnessPal nutrition logs, and academic records from three students over 89 days (Sep–Nov 2024) to explore how lifestyle habits relate to academic performance.
 
@@ -14,7 +14,7 @@ An ETL system that extracts personal health and learning data from CSV files, lo
 
 ## Research Question
 
-> **How do daily lifestyle habits — sleep duration, physical activity, and nutrition — relate to student study time and academic performance?**
+> **How do daily lifestyle habits sleep duration, physical activity, and nutrition relate to student study time and academic performance?**
 
 ## Sub-Questions
 
