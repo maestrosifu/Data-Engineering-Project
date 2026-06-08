@@ -57,16 +57,3 @@ An ETL system that extracts personal health and learning data from CSV files, lo
 - **Data:** CSV exports from WHOOP, MyFitnessPal, and institutional records
 
 ---
-
-## Repository Structure
-
-```
-/
-├── data/               # Raw CSV files (all 11 sources)
-├── docs/               # Report sections
-├── schema/             # schema.sql
-├── scripts/
-│   ├── load_data.py    # ETL loading script
-│   └── queries.py      # Analytical queries
-└── README.md
-```
