@@ -1,0 +1,46 @@
+student_id,course,assessment_type,assessment_date,grade,study_hours_prior_week,submission_on_time
+S001,Data Engineering,Exam,9/30/24,7.5,8.4,Yes
+S001,Data Engineering,Exam,10/28/24,9,8.6,Yes
+S001,Data Engineering,Final,11/25/24,9.6,8.7,Yes
+S001,Statistics,Exam,9/30/24,9.1,12.2,Yes
+S001,Statistics,Exam,10/28/24,9.1,10.9,Yes
+S001,Statistics,Final,11/25/24,8,10.1,Yes
+S001,Python Programming,Exam,9/30/24,8.1,10.1,Yes
+S001,Python Programming,Exam,10/28/24,8.3,11.5,Yes
+S001,Python Programming,Final,11/25/24,8.9,9.9,Yes
+S001,Database Systems,Exam,9/30/24,8.7,12.2,Yes
+S001,Database Systems,Exam,10/28/24,7.7,6.4,Yes
+S001,Database Systems,Final,11/25/24,7.6,8.6,Yes
+S001,Research Methods,Exam,9/30/24,7.9,11.6,Yes
+S001,Research Methods,Exam,10/28/24,8.6,11.1,Yes
+S001,Research Methods,Final,11/25/24,7.3,6.5,Yes
+S002,Data Engineering,Exam,9/30/24,6.9,8.9,Yes
+S002,Data Engineering,Exam,10/28/24,5.7,8.3,Yes
+S002,Data Engineering,Final,11/25/24,5.8,7.4,Yes
+S002,Statistics,Exam,9/30/24,5.7,4.9,Yes
+S002,Statistics,Exam,10/28/24,6.8,5.2,Yes
+S002,Statistics,Final,11/25/24,5.9,6.4,Yes
+S002,Python Programming,Exam,9/30/24,5.9,7,Yes
+S002,Python Programming,Exam,10/28/24,6.8,6.2,Yes
+S002,Python Programming,Final,11/25/24,5.9,6.7,Yes
+S002,Database Systems,Exam,9/30/24,6.4,5.3,Yes
+S002,Database Systems,Exam,10/28/24,7.5,8,Yes
+S002,Database Systems,Final,11/25/24,7.1,8.8,Yes
+S002,Research Methods,Exam,9/30/24,7.6,11.1,Yes
+S002,Research Methods,Exam,10/28/24,6.5,7.4,Yes
+S002,Research Methods,Final,11/25/24,5.3,4.7,No
+S003,Data Engineering,Exam,9/30/24,3.6,1,Yes
+S003,Data Engineering,Exam,10/28/24,5.8,6.2,Yes
+S003,Data Engineering,Final,11/25/24,6.7,8.6,Yes
+S003,Statistics,Exam,9/30/24,3.6,4.5,Yes
+S003,Statistics,Exam,10/28/24,6.2,5.7,Yes
+S003,Statistics,Final,11/25/24,5.8,7.4,Yes
+S003,Python Programming,Exam,9/30/24,4.1,4.8,Yes
+S003,Python Programming,Exam,10/28/24,5.2,9.1,Yes
+S003,Python Programming,Final,11/25/24,3.7,3.9,Yes
+S003,Database Systems,Exam,9/30/24,7.1,6.6,Yes
+S003,Database Systems,Exam,10/28/24,5.8,6.4,Yes
+S003,Database Systems,Final,11/25/24,5.6,3.7,Yes
+S003,Research Methods,Exam,9/30/24,7,9.5,Yes
+S003,Research Methods,Exam,10/28/24,6.3,3.8,Yes
+S003,Research Methods,Final,11/25/24,6.1,4.5,Yes
