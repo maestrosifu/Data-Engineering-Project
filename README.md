@@ -105,6 +105,7 @@ Data-Engineering-Project/
     ├── Report section 3.docx   # System Design (schema + ETL + architecture + security)
     ├── Report section 4.docx   # ETL Implementation documentation
     └── Report section 5.docx   # Test Report
+    └── Report section 6.docx   # Conclusion and Final Findings  
 ```
 
 ---
