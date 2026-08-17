@@ -22,7 +22,7 @@ import psycopg2.extras
 
 DB_CONFIG = {
     "host":     "localhost",
-    "port":     5432,
+    "port":     5433,
     "dbname":   "learning_analytics",
     "user":     "postgres",
     "password": "tool123",
