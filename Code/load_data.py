@@ -27,7 +27,7 @@ from datetime import datetime
 
 DB_CONFIG = {
     "host":     "localhost",
-    "port":     5432,
+    "port":     5433,
     "dbname":   "learning_analytics",   # name of the database you created
     "user":     "postgres",             # your PostgreSQL username
     "password": "tool123",             # your PostgreSQL password
@@ -43,7 +43,7 @@ DB_CONFIG = {
 #     Student 2/  ... same pattern for S002
 #     Student 3/  ... same pattern for S003
 #     academic_performance.csv
-DATA_DIR = "data"
+DATA_DIR = "Data"
 
 # =============================================================================
 # LOGGING — writes progress to console and to load_log.txt
