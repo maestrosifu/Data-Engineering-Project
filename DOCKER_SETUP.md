@@ -31,7 +31,7 @@ That's it! The PostgreSQL database is now running with the complete schema loade
 2. **PostgreSQL 15** starts in a container
 3. **schema.sql** runs automatically on first startup (creates 6 tables, 0 errors)
 4. **Volume persistence** ensures data survives container restarts
-5. **Port 5432** is exposed for local connections
+5. **Port 5433** is exposed for local connections
 
 ---
 
@@ -45,7 +45,7 @@ docker-compose ps
 Expected output:
 ```
 NAME                              STATUS          PORTS
-learning_analytics_postgres       Up 5 seconds    0.0.0.0:5432->5432/tcp
+learning_analytics_postgres       Up 5 seconds    0.0.0.0:5433->5432/tcp
 ```
 
 ### Connect to Database
