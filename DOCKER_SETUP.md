@@ -51,7 +51,7 @@ learning_analytics_postgres       Up 5 seconds    0.0.0.0:5433->5432/tcp
 ### Connect to Database
 ```bash
 # Option 1: From host machine (requires psql installed)
-psql -h localhost -U postgres -d learning_analytics
+psql -h localhost -p 5433 -U postgres -d learning_analytics
 
 # Option 2: From inside container
 docker-compose exec postgres psql -U postgres -d learning_analytics
@@ -165,24 +165,26 @@ docker-compose up -d
 
 ## Troubleshooting
 
-### Port 5432 Already in Use
-If you get an error like `Bind for 0.0.0.0:5432 failed: port is already allocated`:
+### Port 5433 Already in Use
+If you get an error like `Bind for 0.0.0.0:5433 failed: port is already allocated`:
 
 Option 1: Stop existing PostgreSQL
 ```bash
 # On macOS/Linux
 sudo systemctl stop postgresql
 
-# Or find and stop the container using port 5432
-docker ps | grep 5432
+# Or find and stop the container using port 5433
+docker ps | grep 5433
 docker stop <container_id>
 ```
 
 Option 2: Use a different port
 ```bash
-# Edit docker-compose.yml and change ports:
+# 5433 is already this project's default (chosen to avoid clashing
+# with a local Postgres install on the standard 5432). If 5433 is
+# also taken, edit docker-compose.yml and change ports to e.g.:
 # ports:
-#   - "5433:5432"  # Host:Container
+#   - "5434:5432"  # Host:Container
 
 docker-compose up -d
 ```
@@ -249,8 +251,8 @@ DB_USER=postgres
 # PostgreSQL password (default: tool123)
 DB_PASSWORD=tool123
 
-# Port (default: 5432)
-DB_PORT=5432
+# Port (default: 5433)
+DB_PORT=5433
 ```
 
 Changes take effect when you run `docker-compose up -d` again.
