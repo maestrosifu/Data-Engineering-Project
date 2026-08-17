@@ -1,7 +1,7 @@
 # Dockerfile
 # Personal Data Ecosystem for Learning Analytics
 # Build: docker build -t learning-analytics .
-# Run: docker run -p 5432:5432 learning-analytics
+# Run: docker run -p 5433:5432 learning-analytics
 
 FROM postgres:15-alpine
 
